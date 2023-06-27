@@ -1,0 +1,88 @@
+.sdnt-form-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(125, 175, 232);
+  height: 100vh;
+}
+
+.sdnt-data-collection-form {
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  gap: 10px;
+  width: 600px;
+  padding: 20px;
+  background-color: rgb(230, 238, 246);
+}
+input {
+  border: none;
+  border-radius: 20px;
+}
+label {
+  text-align: left;
+}
+
+.btns-container{
+  display: flex;
+  width: max-content;
+  flex-direction: row;
+  gap: 20px;
+  justify-content:space-evenly;
+  margin: auto;
+}
+
+.submit-btn {
+  background-color: rgb(51, 122, 52);
+  border-radius: 5px;
+  border: none;
+  color: white;
+  width: 100px;
+  height: 40px;
+  margin: auto;
+  margin-top: 30px;
+}
+.back-btn {
+  background-color: rgb(50, 20, 221);
+  border-radius: 5px;
+  border: none;
+  color:  white;
+  width: 100px;
+  height: 40px;
+  
+  margin-top: 30px;
+}
+.form-name {
+  margin: auto;
+  /* margin-bottom: 10px; */
+}
+.blur{
+  background-color: rgb(149, 199, 150);
+  border-radius: 5px;
+  border: none;
+  color:  white;
+  width: 100px;
+  height: 40px;
+  
+  margin-top: 30px;
+}
+ul {
+    list-style: none;
+}
+.empty-input {
+  border:2px solid red
+}
+.valid-input {
+  border: none;
+}
+
+.hide-btn {
+  display: none;
+}
+.uniqueid-err  {
+  color: red;
+  height: 0px;
+}
+::placeholder{
+  color: red;
+}

@@ -1,0 +1,38 @@
+.main-head-container {
+    height: 75px;
+    display: block;
+    background-color: rgb(31, 29, 29);
+    display: flex;
+    justify-content:space-between ;
+    padding: 10px;
+}
+.inst-logo-container {
+    padding-top:7px ;
+    padding-left: 50px;
+   width: 200px;
+   height: 75px;
+   
+}
+/* .header-list-container {
+    width: 200px;
+    display: flex;
+    justify-content: space-evenly;
+
+} */
+.header-list {
+    display: flex;
+    justify-content: space-evenly;
+    /* width: 10px; */
+    gap: 0px;
+    /* align-items: center; */
+    padding-top: 7x;
+    padding-right: 20px;
+}
+.header-btn{
+    width: 100px;
+    cursor: pointer;
+    background: none;
+    border: none;
+    color: white;
+    
+}

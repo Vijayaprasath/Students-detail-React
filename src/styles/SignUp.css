@@ -1,0 +1,50 @@
+.register-container {
+  background-image: url("https://images.unsplash.com/photo-1487088678257-3a541e6e3922?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80");
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.register-form {
+    width: 350px;
+  border: 0px solid rgb(20, 25, 27);
+  background-color: rgb(241, 245, 245);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: center;
+  gap: 10px;
+  padding: 20px;
+  /* text-align: center; */
+}
+input {
+  border-radius: 5px;
+  height: 40px;
+  border: none;
+  /* width: 100px; */
+}
+label {
+  text-align: left;
+}
+button {
+  cursor: pointer;
+}
+
+.register2-btn {
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    width: 100px;
+    height: 40px;
+    margin: auto;
+    color: rgb(250, 251, 250);
+    background-color: rgb(110, 196, 67);
+}
+
+.login2-btn {
+    border: none;
+    background: none;
+    color: rgb(35, 15, 216);
+}

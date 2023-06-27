@@ -1,0 +1,44 @@
+.get-sdnt-container {
+    display: flex;
+    justify-content: center;
+    /* background-color: rgb(92, 87, 87); */
+    background-image: url('https://img.freepik.com/free-photo/business-women-signature-document_1388-90.jpg?size=626&ext=jpg&ga=GA1.1.1417353930.1686991962&semt=ais');
+    background-size: cover;
+    height: 100vh;
+    align-items: center;
+}
+.get-sdnt-form {
+    background-color: rgb(225, 228, 232);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+    height: 350px;
+    width: 400px;
+    border-radius: 20px;
+    
+    /* align-items: center; */
+}
+input {
+    border: 1px solid black;
+}
+.get-allsdnt-checkbox-container {
+    display: flex;
+    align-items: center ;
+}
+.get-allsdnt-checkbox {
+    height: 20px;
+    width: 20px;
+}
+.get-btn {
+    height: 40px;
+    width: 100px;
+    margin: auto;
+    border: none;
+    border-radius: 10px;
+    background-color: royalblue;
+    color: white;
+}
+.error-message {
+    color: red;
+}

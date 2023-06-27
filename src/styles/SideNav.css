@@ -1,0 +1,19 @@
+.main-nav-container {
+    width: 225px;
+    height: 500px;
+}
+
+.nav-bar-div {
+    width: 225px;
+    height: 500px;   
+}
+button {
+    width: 225px;
+    height: 50px;
+    margin-left: 0px;
+    /* border: none; */
+    /* background-color: rgb(203, 201, 201); */
+    color: rgb(9, 8, 8);
+
+}
+
