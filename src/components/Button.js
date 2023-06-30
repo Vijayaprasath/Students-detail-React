@@ -14,16 +14,16 @@ export default Button;
 
 
 
-import {createContext} from 'react';
+// import {createContext} from 'react';
 
-export const studentsContext = createContext();
+// export const studentsContext = createContext();
 
-export const studentProvider = (props) => {
-  const [students, setstudents] = useState([]);
+// export const studentProvider = (props) => {
+//   const [students, setstudents] = useState([]);
 
-  return (
-    <studentsContext.Provider>
-      {props.children}
-    </studentsContext.Provider>
-  )
-}
+//   return (
+//     <studentsContext.Provider>
+//       {props.children}
+//     </studentsContext.Provider>
+//   )
+// }

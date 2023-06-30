@@ -3,23 +3,10 @@ import DetailCollectionForm from "./components/DetailCollectonForm";
 import Home from "./components/Home";
 import StudentsTable from "./components/StudentsTable";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import { useState, useEffect } from "react";
-import axios from "axios";
+
+
 
 function App() { 
-  // const [studentData, setStudentData] = useState([]);
-
-  // useEffect(() => {
-  //   getStudents();
-  //   console.log(studentData)
-  // },[]);
-  // // getStudents();
-  // async function getStudents() {
-  //   const res = await axios.get(`http://localhost:7000/students`);
-  //   const data = await res.data;
-  //   console.log(data);
-  //   setStudentData(data);
-  //  }
  
   return (
       <BrowserRouter>
@@ -41,3 +28,20 @@ export default App;
 
 
 
+
+
+// import { useState, useEffect } from "react";
+// import axios from "axios";
+ // const [studentData, setStudentData] = useState([]);
+
+  // useEffect(() => {
+  //   getStudents();
+  //   console.log(studentData)
+  // },[]);
+  // // getStudents();
+  // async function getStudents() {
+  //   const res = await axios.get(`http://localhost:7000/students`);
+  //   const data = await res.data;
+  //   console.log(data);
+  //   setStudentData(data);
+  //  }
